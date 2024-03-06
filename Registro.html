@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro</title>
+
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+<body>
+    <table>
+      
+        <form>
+       <fieldset> <legend><h1>Ingresa tus datos</h1></legend>
+    <h1>Registrate</h1>
+    <h3>¡Bienvenido!</h3>
+    <label for="nombre">Ingresa tu usuario:</label><br>
+    <input type="text" id="nombre" name="nombre" required><br><br>
+
+    <label for="Contraseña">Ingresa tu Contraseña:</label><br>
+    <input type="password" id="Contraseña" name="Contraseña" required minlength="6" maxlength="12"><br><br>
+
+    <label for="contraseña">Confirma tu Contraseña:</label><br>
+     <input type="password" id="contraseña" name="Contraseña" required minlength="6" maxlength="12"><br><br>
+ 
+     <label for="email">Ingresa tu E-mail</label><br>
+     <input type="email" name="E-mail" id="email" required> <br><br>
+
+     <label for="telefono">Ingresa tu numero telefonico</label><br>
+     <input type="tel" name="telefono" id="telefono" required><br><br>
+
+<label for="pais">País</label><br>
+<input type="text" name="pais" id="pais"><br><br>
+
+<label for="Provincia">Provincia</label><br>
+<input type="text" name="provincia" id="provincia"><br><br>
+
+     <label for="fecha">Fecha de nacimiento</label><br>
+     <input type="date" name="fecha" id="fecha" required><br> <br>
+
+<p>Sexo:</p>
+     <label for="genero">Masculino: </label>
+     <input type="radio" name="genero" id="genero" value="genero">
+   <br>
+   <label for="generomujer">Femenino: </label>
+     <input type="radio" name="genero"  id="genero" value="genero"> <br> <br>
+
+<label for="terms">Aceptas los terminos  y condiciones?</label>
+<input type="checkbox" id="terms" name="terms" required> <br> <br>
+
+<label for="comentarios">Sugerencias para mejorar este formulario</label><br>
+<textarea name="comentarios" id="comentarios" cols="20" rows="5" placeholder="Haz tu comentario"></textarea><br>
+
+<input type="submit" value="Enviar datos">
+    
+
+</form>
+</table>
+     <button><a href="Index.html"><b>Ingresar</b></a></button>
+
+        <p>Despues de Enviar los datos lo siguente es darle al boton <b>Ingresar</b></p>
+    
+</body>
+</html>
